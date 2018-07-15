@@ -8,6 +8,8 @@ def countdown(number)
   return "HAPPY NEW YEAR!"
 end
 
+num_secs = "#{number}".to_i
+
 def countdown_with_sleep(number)
    while number > 0 
     sleep(1.seconds)
