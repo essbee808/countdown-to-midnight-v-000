@@ -12,8 +12,8 @@ end
 
 def countdown_with_sleep(number)
   num_secs = "#{number}".to_i
-  until num_secs > 0 
+  until num_secs == 0 
     sleep(1)
-    num_secs 
+    num_secs -= 1
   end
 end
